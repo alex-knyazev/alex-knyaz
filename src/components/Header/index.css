@@ -1,0 +1,13 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 114px;
+  box-sizing: border-box;
+  border-top: 2px solid var(--third-color);
+}
+
+.Header a {
+  text-decoration: none;
+  color: inherit;
+}

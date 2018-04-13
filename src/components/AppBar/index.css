@@ -1,0 +1,23 @@
+.AppBar {
+  padding: 40px 50px;
+}
+
+.AppBar ul {
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.AppBar ul li {
+  padding: 0px 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.AppBar ul li:hover {
+  color: var(--third-color);
+}
+
+.AppBar-Mail {
+  opacity: 0.7;
+}

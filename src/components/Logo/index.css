@@ -1,0 +1,14 @@
+.Logo {
+  padding: 20px 50px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.Logo span {
+  display: block;
+  padding: 5px;
+}
+
+.Logo span:last-child {
+  opacity: 0.5;
+}

@@ -1,0 +1,16 @@
+:root {
+  --third-color: rgb(65,230,138); 
+  --third-color: rgb(24, 187, 9);
+}
+
+.App {
+  font-family: 'Nunito', sans-serif;
+}
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}
