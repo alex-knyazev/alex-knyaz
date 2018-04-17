@@ -8,8 +8,7 @@ import './App.css';
 
 import Header from './components/Header';
 import MainPage from './components/MainPage';
-import About from './components/About';
-
+import Resume from './components/Resume';
 
 class App extends Component {
   render() {
@@ -19,7 +18,7 @@ class App extends Component {
           <Header />
           <TransitionSwitch component={Fader}>
             <Route exact path="/" component={MainPage} />
-            <Route path="/about/" component={About} />
+            <Route path="/resume/" component={Resume} />
             <Route path="/portfolio/" component={MainPage} />
           </TransitionSwitch>
         </div>

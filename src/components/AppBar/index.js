@@ -8,7 +8,7 @@ export default () => {
     <div className="AppBar">
       <ul>
         <li>
-          <Link to="/about">About me</Link>
+          <Link to="/resume">Resume</Link>
         </li>
         <li>
           <Link to="/portfolio">Portfolio</Link>

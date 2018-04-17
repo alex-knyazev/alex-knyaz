@@ -1,0 +1,70 @@
+.Resume {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-areas: "Basic Details";
+  padding: 0 10%;
+}
+
+.Resume-Basic {
+  grid-area: Basic;
+}
+
+.Resume-Details {
+  grid-area: Details;
+}
+
+.Resume-MainInfo {
+  height: 150px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 40% 40% 20%;
+}
+
+.Resume-Name {
+  margin: 0;
+  font-size: 2rem;
+}
+.Resume-Profession {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.Resume-Profession {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.Resume-City {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.Resume-Avatar {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.Resume-BasicTitle {
+  display: flex;
+  margin: 40px 0px 20px 0px;
+}
+.Resume-BasicTitleText {
+  margin: 0;
+  padding-left: 10px;
+}
+.Resume-BasicTitleIcon {
+  width: 25px;
+  height: 28px;
+}
+
+.Resume-DetailsTitle {
+  margin: 20px 0px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.Resume-BasicSectionInfo {
+  padding: 5px 20px;
+  border-left: 2px solid var(--second-color);
+}

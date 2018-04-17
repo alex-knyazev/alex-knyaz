@@ -8,5 +8,64 @@
 
 .MainPage-AnimatedText {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
+
+.MainPage-ImageCursor {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-image: url('./orange.png');
+  /* animation: ImageCursorRunning 2s linear infinite; */
+}
+/* 
+@keyframes ImageCursorRunning {
+  0% {
+    background-position-x: 0;
+  }
+  20% {
+    background-position-x: 0;
+  }
+  20.00001% {
+    background-position-x: -16px;
+  }
+  40% {
+    background-position-x: -16px;
+  }
+  40.00001% {
+    background-position-x: -32px;
+  }
+  60% {
+    background-position-x: -32px;
+  }
+  60.00001% {
+    background-position-x: -48px;
+  }
+  80% {
+    background-position-x: -48px;
+  }
+  80.00001% {
+    background-position-x: -64px;
+  }
+  100% {
+    background-position-x: -64px
+  }
+  100.00001% {
+    background-position-x: -80px;
+  }
+  
+/*   40% {
+    background-position-x: 32px;
+  }
+  60% {
+    background-position-x: 48px;
+  }
+  80% {
+    background-position-x: 64px;
+  }
+  100% {
+    background-position-x: 80px;
+  } 
+}
+
+ */
